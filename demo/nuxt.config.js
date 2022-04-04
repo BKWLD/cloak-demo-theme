@@ -4,7 +4,7 @@ export default {
 	// Load boilerplate and this package
 	buildModules: [
 		'@cloak-app/boilerplate/nuxt',
-		'@cloak-app/demo-theme/nuxt',
+		'@cloak-app/demo-theme/nuxt.js',
 	],
 
 	// Set the site name

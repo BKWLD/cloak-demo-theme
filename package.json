@@ -6,7 +6,6 @@
 	"author": "Bukwild <info@bukwild.com>",
 	"license": "MIT",
 	"scripts": {
-		"sandbox": "rsync -avz --exclude 'node_modules' --exclude '.netlify' demo/ sandbox/",
 		"dev": "nuxt dev demo",
 		"build": "nuxt build demo",
 		"start": "nuxt start demo",
