@@ -11,3 +11,7 @@ Standard theme for @cloak-app package demos.
 
 1. Install with `yarn add @cloak-app/demo-theme`
 2. Add to `nuxt.config` with `buildModules: ['@cloak-app/demo-theme/nuxt']`
+
+## Contributing
+
+Run `yarn dev` to open a Nuxt dev build of [the demo directory](./demo).
