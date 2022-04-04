@@ -15,3 +15,8 @@ Longer explanation of the feature.  Followed by a code sample.
 ## Another feature
 
 Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+```coffee
+export default
+  mounted: -> console.log 'Heya'
+```

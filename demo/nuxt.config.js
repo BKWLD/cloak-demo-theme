@@ -14,12 +14,4 @@ export default {
 		}
 	},
 
-	// Load CMS module
-	modules: ['@nuxt/content'],
-
-	// @nuxt/content config
-	content: {
-		liveEdit: false,
-	}
-
 }
