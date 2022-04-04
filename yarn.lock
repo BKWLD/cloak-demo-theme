@@ -939,10 +939,10 @@
   dependencies:
     coffeescript "^2.5.1"
 
-"@cloak-app/boilerplate@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@cloak-app/boilerplate/-/boilerplate-1.0.1.tgz#703384966269f8bee254980e54189d0c7b19caad"
-  integrity sha512-UDOOoHGK3nuTCPz++6V3ZNx0AOjn87xwhgy5sM5z4KYJQKG8PJwSCJr9YDnU1+REOFyxcnaTGhAvq3+S6NguwQ==
+"@cloak-app/boilerplate@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@cloak-app/boilerplate/-/boilerplate-1.0.2.tgz#e6b56ddc17e2e7239c74abc5487f414b0ff29b05"
+  integrity sha512-xF3oopbRgVTP4FNuO9Z46MLi7R4PD/m1e/pbjQOIcwL8W9viqpS8AZDZTTJjovjY/rgTIEZHchT7Zhu6XhExZw==
   dependencies:
     "@bkwld/credits" "^0.3.0"
     "@nuxt/utils" "^2.15.8"
