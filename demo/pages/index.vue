@@ -22,8 +22,4 @@ export default
 
 <style lang='stylus' scoped>
 
-h2
-	margin-top 2em
-	margin-bottom 0.5em
-
 </style>
