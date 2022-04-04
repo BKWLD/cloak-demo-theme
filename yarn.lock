@@ -970,11 +970,6 @@
     vue-routing-anchor-parser "^1.13.1"
     webpack-graphql-loader gpoitch/graphql-loader#gp/refresh
 
-"@cloak-app/demo-theme@../":
-  version "1.0.0"
-  dependencies:
-    prism-themes "^1.9.0"
-
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -10335,7 +10330,7 @@ webpack-dev-middleware@^4.2.0:
     range-parser "^1.2.1"
     schema-utils "^3.0.0"
 
-webpack-graphql-loader@gpoitch/graphql-loader#gp/refresh:
+"webpack-graphql-loader@github:gpoitch/graphql-loader#gp/refresh":
   version "1.0.2"
   resolved "https://codeload.github.com/gpoitch/graphql-loader/tar.gz/42f0f990a6132ccd5e284d0e6cfeade12728dba2"
   dependencies:

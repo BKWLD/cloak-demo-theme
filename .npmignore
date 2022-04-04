@@ -8,5 +8,6 @@ node_modules
 logs
 *.log
 
-# Demo site not needed
+# Demo sites not needed
 demo
+sandbox

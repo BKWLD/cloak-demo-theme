@@ -6,12 +6,18 @@
 	"author": "Bukwild <info@bukwild.com>",
 	"license": "MIT",
 	"scripts": {
-		"dev": "cd demo && yarn nuxt",
-		"build": "cd demo && yarn nuxt build",
-		"start": "cd demo && yarn nuxt start",
-		"generate": "cd demo && nuxt generate --fail-on-error --target=static"
+		"sandbox": "rsync -avz --exclude 'node_modules' --exclude '.netlify' demo/ sandbox/",
+		"dev": "nuxt dev demo",
+		"build": "nuxt build demo",
+		"start": "nuxt start demo",
+		"generate": "nuxt generate --fail-on-error --target=static demo"
 	},
 	"dependencies": {
 		"prism-themes": "^1.9.0"
+	},
+	"devDependencies": {
+		"@cloak-app/boilerplate": "^1.0.1",
+		"@nuxt/content": "1.14.0",
+		"nuxt": "^2.15.7"
 	}
 }
