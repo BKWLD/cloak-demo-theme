@@ -6,6 +6,16 @@ export default function() {
 
 	// Inject the stylesheet
 	this.options.css.push(join(__dirname, './assets/theme.styl'))
+
+	// Set default code theme
+	if (!this.options.content?.markdown?.prisim?.theme) {
+		this.options.content.markdown = {
+			prisim: {
+				theme: 'prism-themes/themes/prism-atom-dark.css'
+			}
+		}
+	}
+	console.log(this.options.content.markdown)
 }
 
 // Required for published modules

@@ -939,10 +939,10 @@
   dependencies:
     coffeescript "^2.5.1"
 
-"@cloak-app/boilerplate@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@cloak-app/boilerplate/-/boilerplate-1.0.0.tgz#03e90a52de63ef91beb4a2a2af8e2279de1f8355"
-  integrity sha512-35A/K8UiUXlOdFEuM0cPorXMbS4NrrQpi4N5vXyqXiprhSMSzr6SIVPGQyjmzF+zhv3HQtJ6ZXEK85ccdtRd0A==
+"@cloak-app/boilerplate@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@cloak-app/boilerplate/-/boilerplate-1.0.1.tgz#703384966269f8bee254980e54189d0c7b19caad"
+  integrity sha512-UDOOoHGK3nuTCPz++6V3ZNx0AOjn87xwhgy5sM5z4KYJQKG8PJwSCJr9YDnU1+REOFyxcnaTGhAvq3+S6NguwQ==
   dependencies:
     "@bkwld/credits" "^0.3.0"
     "@nuxt/utils" "^2.15.8"
@@ -970,8 +970,9 @@
     vue-routing-anchor-parser "^1.13.1"
     webpack-graphql-loader gpoitch/graphql-loader#gp/refresh
 
-"@cloak-app/demo-theme@../":
+"@cloak-app/demo-theme@BKWLD/cloak-demo-theme":
   version "1.0.0"
+  resolved "https://codeload.github.com/BKWLD/cloak-demo-theme/tar.gz/e3184dbd156fd33b2f7e9da3bc3368938ba38f74"
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -10328,7 +10329,7 @@ webpack-dev-middleware@^4.2.0:
     range-parser "^1.2.1"
     schema-utils "^3.0.0"
 
-"webpack-graphql-loader@github:gpoitch/graphql-loader#gp/refresh":
+webpack-graphql-loader@gpoitch/graphql-loader#gp/refresh:
   version "1.0.2"
   resolved "https://codeload.github.com/gpoitch/graphql-loader/tar.gz/42f0f990a6132ccd5e284d0e6cfeade12728dba2"
   dependencies:

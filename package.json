@@ -4,5 +4,8 @@
 	"description": "Standard theme for @cloak-app package demos.",
 	"repository": "git@github.com:BKWLD/cloak-demo-theme.git",
 	"author": "Bukwild <info@bukwild.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"prism-themes": "^1.9.0"
+	}
 }

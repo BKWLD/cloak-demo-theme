@@ -2,9 +2,13 @@
 
 ## Description of a feature
 
-<cloak-demo-theme-block></cloak-demo-theme-block>
+Longer explanation of the feature.  Followed by a code sample.
 
 
 ```vue
-<cloak-demo-theme-block></cloak-demo-theme-block>
+<ssr-carousel loop show-dots show-arrows>
+  <slide :index='1'></slide>
+  <slide :index='2'></slide>
+  <slide :index='3'></slide>
+</ssr-carousel>
 ```

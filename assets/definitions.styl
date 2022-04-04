@@ -5,10 +5,11 @@
 // Vars stored in JSON for sharing with JS
 json('vars/breakpoints.json')
 json('vars/dimensions.json')
+// https://i.pinimg.com/originals/8b/a5/61/8ba56184b6382f1905bab015a23850e8.png
 json('vars/colors.json')
 
 // Whitespace
-gutter = 60px
+gutter = 40px
 gutter-mobile = 20px
 max-w-small = 750px + gutter * 2
 max-w-medium = 1060px + gutter * 2
@@ -30,14 +31,14 @@ btn-pad-h-small = 20px
 // Typography
 body-font-size = 16px
 body-font-size-min = 14px
-body-line-height = 1.5
+body-line-height = 1.3
 
 // Spacing
 spacing-xl = 120px
 spacing-xl-min = spacing-xl * 0.5
 spacing-l = 90px
 spacing-l-min = spacing-l * 0.6
-spacing-m = 45px
+spacing-m = 60px
 spacing-m-min = spacing-m * 0.7
 spacing-s = 30px
 spacing-s-min = spacing-s * 0.8
@@ -67,8 +68,7 @@ fluid-font(style,
 
 	// Font style switch statement.
 	if style == 'body'
-		font-family sans-serif
-		letter-spacing -0.01em
+		font-family 'Nunito', sans-serif
 		font-weight 400
 
 	// Set font-size
@@ -81,20 +81,12 @@ fluid-font(style,
 // Style guide styles. The line-height fractions are based on the brand
 // style guidelines
 style-h1()
-	fluid-font 'body', 72, 50
+	fluid-font 'body', 48
 	line-height 1.1
+	font-weight 200
 style-h2()
-	fluid-font 'body', 48, 30
+	fluid-font 'body', 24
 	line-height 1.2
-style-h3()
-	fluid-font 'body', 30, 24
-	line-height 1.3
-style-h4()
-	fluid-font 'body', 22, 20
-	line-height 1.3
-style-h5()
-	fluid-font 'body', 18, 16
-	line-height 1.3
 style-body()
 	fluid-font 'body', body-font-size, body-font-size-min
 	line-height body-line-height
@@ -105,3 +97,7 @@ fluid-space(property, size, negative = false)
 	fluid property,
 		mod * lookup('spacing-'+size),
 		mod * lookup('spacing-'+size+'-min')
+
+// Add standard border radius
+basic-border-radius()
+	fluid border-radius, 12, 8
