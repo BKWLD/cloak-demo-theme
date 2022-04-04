@@ -5,6 +5,12 @@
 	"repository": "git@github.com:BKWLD/cloak-demo-theme.git",
 	"author": "Bukwild <info@bukwild.com>",
 	"license": "MIT",
+	"scripts": {
+		"dev": "cd demo && yarn nuxt",
+		"build": "cd demo && yarn nuxt build",
+		"start": "cd demo && yarn nuxt start",
+		"generate": "cd demo && nuxt generate --fail-on-error --target=static"
+	},
 	"dependencies": {
 		"prism-themes": "^1.9.0"
 	}
