@@ -7,15 +7,19 @@ export default {
 		'@cloak-app/demo-theme/nuxt',
 	],
 
+	// Set the site name
+	cloak: {
+		boilerplate: {
+			siteName: '@cloak-app/demo-theme demo',
+		}
+	},
+
 	// Load CMS module
 	modules: ['@nuxt/content'],
 
 	// @nuxt/content config
 	content: {
 		liveEdit: false,
-		// markdown: {prism: {
-		// 	theme: 'prism-themes/themes/prism-atom-dark.css'
-		// }}
 	}
 
 }
