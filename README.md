@@ -1,6 +1,9 @@
 # @cloak-app/demo-theme
 
-Standard theme for @cloak-app package demos.  [View demo](https://cloak-demo-theme.netlify.app/).
+Standard theme for @cloak-app package demos.
+
+- [View demo](https://cloak-demo-theme.netlify.app/).
+- [Edit CodeSandbox](https://githubbox.com/BKWLD/cloak-demo-theme)
 
 ## Install
 
