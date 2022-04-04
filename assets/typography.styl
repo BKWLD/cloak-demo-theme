@@ -48,3 +48,39 @@ h1, h2, h3, h4, h5, h6
 	style-h5()
 .body
 	style-body()
+
+// Page title
+h1
+	style-h1()
+	color secondary-color
+
+// Seperate regions on a page
+h2
+	fluid-space margin-top, 'l'
+	style-h2()
+
+// Syntax highlighting
+.nuxt-content-highlight pre[class*="language-"] // Increase specifity
+	background darken(primary-background, 15%)
+	border 1px solid darken(primary-background, 30%)
+	basic-border-radius()
+	fluid-space margin-bottom, 's'
+code
+	font-size 14px
+	line-height 1.2
+
+// Style body text, like notes
+p
+	line-height 1.5
+	color lighten(primary-background, 50%)
+
+	// Underline links
+	a
+		text-decoration underline
+
+	// Style inline code
+	code
+		border 1px solid lighten(primary-background, 15%)
+		border-radius 2px
+		padding-h .3em
+		background darken(primary-background, 10%)

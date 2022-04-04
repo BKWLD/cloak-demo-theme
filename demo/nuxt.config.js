@@ -12,7 +12,10 @@ export default {
 
 	// @nuxt/content config
 	content: {
-		liveEdit: false
-	},
+		liveEdit: false,
+		// markdown: {prism: {
+		// 	theme: 'prism-themes/themes/prism-atom-dark.css'
+		// }}
+	}
 
 }

@@ -972,7 +972,9 @@
 
 "@cloak-app/demo-theme@BKWLD/cloak-demo-theme":
   version "1.0.0"
-  resolved "https://codeload.github.com/BKWLD/cloak-demo-theme/tar.gz/e3184dbd156fd33b2f7e9da3bc3368938ba38f74"
+  resolved "https://codeload.github.com/BKWLD/cloak-demo-theme/tar.gz/ff4c1583708d3dc80ee915ac360985858e6953fd"
+  dependencies:
+    prism-themes "^1.9.0"
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -8052,6 +8054,11 @@ pretty-time@^1.1.0:
   resolved "https://registry.yarnpkg.com/pretty-time/-/pretty-time-1.1.0.tgz#ffb7429afabb8535c346a34e41873adf3d74dd0e"
   integrity sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==
 
+prism-themes@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.9.0.tgz#19c034f3205f1e28d75d89728e54ccd745f7e3dd"
+  integrity sha512-tX2AYsehKDw1EORwBps+WhBFKc2kxfoFpQAjxBndbZKr4fRmMkv47XN0BghC/K1qwodB1otbe4oF23vUTFDokw==
+
 prismjs@^1.23.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.27.0.tgz#bb6ee3138a0b438a3653dd4d6ce0cc6510a45057"
@@ -10329,7 +10336,7 @@ webpack-dev-middleware@^4.2.0:
     range-parser "^1.2.1"
     schema-utils "^3.0.0"
 
-webpack-graphql-loader@gpoitch/graphql-loader#gp/refresh:
+"webpack-graphql-loader@github:gpoitch/graphql-loader#gp/refresh":
   version "1.0.2"
   resolved "https://codeload.github.com/gpoitch/graphql-loader/tar.gz/42f0f990a6132ccd5e284d0e6cfeade12728dba2"
   dependencies:

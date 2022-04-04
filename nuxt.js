@@ -8,14 +8,13 @@ export default function() {
 	this.options.css.push(join(__dirname, './assets/theme.styl'))
 
 	// Set default code theme
-	if (!this.options.content?.markdown?.prisim?.theme) {
+	if (!this.options.content?.markdown?.prism?.theme) {
 		this.options.content.markdown = {
-			prisim: {
+			prism: {
 				theme: 'prism-themes/themes/prism-atom-dark.css'
 			}
 		}
 	}
-	console.log(this.options.content.markdown)
 }
 
 // Required for published modules
