@@ -1,0 +1,19 @@
+// Load settings
+json('./colors.json')
+@import '~bukwild-stylus-library'
+
+// Load fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+
+// Load bukwild-stylus-library boilerplate
+@import '~bukwild-stylus-library/boilerplate'
+
+body
+	background primary-background
+	color primary-color
+
+	// Default font styling
+	fluid-font 'body', body-font-size, body-font-size-min, primary-color
+
+	// Disable outline on touch
+	-webkit-tap-highlight-color rgba(0,0,0,0)
