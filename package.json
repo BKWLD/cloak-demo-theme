@@ -1,6 +1,6 @@
 {
 	"name": "@cloak-app/demo-theme",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Standard theme for @cloak-app package demos.",
 	"repository": "git@github.com:BKWLD/cloak-demo-theme.git",
 	"author": "Bukwild <info@bukwild.com>",
