@@ -14,4 +14,7 @@ export default {
 		}
 	},
 
+	// @nuxt/content can't be loaded from module
+	modules: ['@nuxt/content'],
+
 }

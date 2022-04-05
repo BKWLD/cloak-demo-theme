@@ -21,9 +21,6 @@ export default function() {
 			}
 		}
 	}})
-
-	// Add @nuxt/content
-	this.requireModule('@nuxt/content')
 }
 
 // Required for published modules
