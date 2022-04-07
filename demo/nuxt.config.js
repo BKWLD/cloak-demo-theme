@@ -3,7 +3,7 @@ export default {
 
 	// Load boilerplate and this package
 	buildModules: [
-		'@cloak-app/boilerplate/nuxt',
+		'@cloak-app/boilerplate',
 		'../nuxt',
 	],
 
