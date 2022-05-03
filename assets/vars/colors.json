@@ -2,5 +2,7 @@
 	"primary-background": "#272760",
 	"secondary-background": "#442768",
 	"primary-color": "#0cffe1",
-	"secondary-color": "#ed1e79"
+	"secondary-color": "#ed1e79",
+	"instructions-color": "#7a7ac9",
+	"body-color": "#bcbce4"
 }
